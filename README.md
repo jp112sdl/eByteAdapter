@@ -8,7 +8,9 @@ Statt 19mm beim original CC1101 sind es hier nun 21mm. Die Breite entspricht dem
 Weitere Infos siehe https://nurazur.wordpress.com/2020/10/06/tino-mit-cc1101-funkmodul-link-budget/
 <br/><br/>
 Die Idee zur Platine entstand auf Grundlage des Beitrags von ["Gelegenheitsbastler" im Homematic Forum](https://homematic-forum.de/forum/viewtopic.php?f=76&t=49719&start=130#p653100).
-<br/>
+<br/><br/>
+Der Diskussionsthread zu dieser PCB im Homematic Forum: https://homematic-forum.de/forum/viewtopic.php?f=76&t=66537
+
 ![pcb](pcb.png)
 
 Gerber Download: https://github.com/jp112sdl/eByteAdapter/raw/master/gerber/gerber.zip
