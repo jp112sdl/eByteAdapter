@@ -1,0 +1,141 @@
+
+(session eByteAdapter.ses
+  (base_design eByteAdapter.dsn)
+  (placement
+    (resolution um 10)
+    (component Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical
+      (place J2 280000 -360000 back 90)
+    )
+    (component Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical
+      (place J1 280000 -340000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.5-0-10_14)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /GND
+        (wire
+          (path B.Cu 2500
+            368900 -340000
+            360198 -331298
+            276289 -331298
+            271626 -335961
+            271626 -343407
+            276982 -348763
+            288763 -348763
+            300000 -360000
+          )
+        )
+      )
+      (net /GDO2
+        (wire
+          (path B.Cu 2500
+            356200 -340000
+            376200 -360000
+            380000 -360000
+          )
+        )
+      )
+      (net /MISO
+        (wire
+          (path F.Cu 2500
+            343500 -340000
+            343500 -348253
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            343500 -348253
+            348253 -348253
+            360000 -360000
+          )
+        )
+      )
+      (net /MOSI
+        (wire
+          (path B.Cu 2500
+            320000 -360000
+            320000 -349997
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            330800 -340000
+            320803 -349997
+            320000 -349997
+          )
+        )
+      )
+      (net /SCK
+        (wire
+          (path F.Cu 2500
+            318100 -340000
+            338100 -360000
+            340000 -360000
+          )
+        )
+      )
+      (net /CS
+        (wire
+          (path B.Cu 2500
+            384130 -345297
+            405297 -345297
+            420000 -360000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 384130 -345297
+        )
+        (wire
+          (path F.Cu 2500
+            305400 -340000
+            313696 -331704
+            372650 -331704
+            384130 -343184
+            384130 -345297
+          )
+        )
+      )
+      (net /GDO0
+        (wire
+          (path F.Cu 2500
+            400000 -349997
+            377204 -327201
+            305499 -327201
+            292700 -340000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            400000 -360000
+            400000 -349997
+          )
+        )
+      )
+      (net /VCC
+        (wire
+          (path F.Cu 2500
+            280000 -340000
+            280000 -360000
+          )
+        )
+      )
+    )
+  )
+)
