@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 38)
     (zones 0)
     (modules 2)
@@ -219,13 +219,14 @@
     )
   )
 
+  (gr_line (start 38.2 17.5) (end 39.4 17.5) (layer F.SilkS) (width 0.12) (tstamp 605A586B))
   (gr_text "TOP\nSIDE" (at 32.5 27.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 26.5 36.3) (end 26.5 17.5) (layer F.SilkS) (width 0.12) (tstamp 605A5692))
   (gr_line (start 39.4 36.3) (end 26.5 36.3) (layer F.SilkS) (width 0.12))
   (gr_line (start 39.4 17.5) (end 39.4 36.3) (layer F.SilkS) (width 0.12))
-  (gr_line (start 26.5 17.5) (end 39.4 17.5) (layer F.SilkS) (width 0.12))
+  (gr_line (start 26.5 17.5) (end 32.9 17.5) (layer F.SilkS) (width 0.12))
   (gr_line (start 33.6 18) (end 33.6 19) (layer Edge.Cuts) (width 0.05) (tstamp 605A55FC))
   (gr_line (start 37 19.6) (end 34.2 19.6) (layer Edge.Cuts) (width 0.05) (tstamp 605A55FB))
   (gr_line (start 37.6 18) (end 37.6 19) (layer Edge.Cuts) (width 0.05) (tstamp 605A55FA))
@@ -278,7 +279,7 @@
   (segment (start 40 37) (end 40 35.9997) (width 0.25) (layer F.Cu) (net 7))
   (segment (start 28 35) (end 28 37) (width 0.25) (layer F.Cu) (net 8))
 
-  (zone (net 1) (net_name /GND) (layer B.Cu) (tstamp 605A5529) (hatch edge 0.508)
+  (zone (net 1) (net_name /GND) (layer B.Cu) (tstamp 605A5820) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -327,7 +328,7 @@
       )
     )
   )
-  (zone (net 1) (net_name /GND) (layer F.Cu) (tstamp 605A5526) (hatch edge 0.508)
+  (zone (net 1) (net_name /GND) (layer F.Cu) (tstamp 605A581D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
