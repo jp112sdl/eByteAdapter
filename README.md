@@ -10,7 +10,12 @@ Weitere Infos siehe https://nurazur.wordpress.com/2020/10/06/tino-mit-cc1101-fun
 Die Idee zur Platine entstand auf Grundlage des Beitrags von ["Gelegenheitsbastler" im Homematic Forum](https://homematic-forum.de/forum/viewtopic.php?f=76&t=49719&start=130#p653100).
 <br/><br/>
 Der Diskussionsthread zu dieser PCB im Homematic Forum: https://homematic-forum.de/forum/viewtopic.php?f=76&t=66537
+<br/>
+**Gerber Download: https://github.com/jp112sdl/eByteAdapter/raw/master/gerber/gerber.zip**
 
 ![pcb](pcb.png)
 
-Gerber Download: https://github.com/jp112sdl/eByteAdapter/raw/master/gerber/gerber.zip
+
+![IMG_2291](IMG_2291.jpg)
+
+![IMG_2288](IMG_2288.jpg)
